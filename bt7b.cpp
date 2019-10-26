@@ -89,6 +89,8 @@ int main() {
 	putText(img, text, Point2f(340, 40), FONT_HERSHEY_PLAIN, 2, Scalar(0, 0, 255, 0), 3);
 
 	imshow("img", img);
+	imwrite("bai7bdetect.jpg", im_with_keypoints);
+	imwrite("bai7bcpp.jpg", img);
 	waitKey(0);
 	return 0;
 }
